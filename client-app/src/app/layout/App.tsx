@@ -9,7 +9,7 @@ function App() {
   const location = useLocation();
 
   return (
-    <Fragment>
+    <>
       {location.pathname === '/' ? <HomePage /> : (
         <Fragment>
           <NavBar />
@@ -18,7 +18,7 @@ function App() {
           </Container>
         </Fragment>
       )}
-    </Fragment>
+    </>
   )
 }
 
